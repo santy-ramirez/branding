@@ -1,4 +1,14 @@
+:root{
+  --colorbg: #C9CEF8;
+  --colornavbar: #4B0F71;
+  --colorlist: #9741E6;
+  --coloracento: #9741E6;
+--colorbody: #f7f9fa;
+
+}
+
 body {
+  background-color: var(--colorbody);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',

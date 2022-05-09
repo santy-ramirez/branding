@@ -1,22 +1,14 @@
-.App {
-  text-align: center;
+.contenedor {
+ max-width: 800px;
+
+ margin: 2rem auto;
+ padding: 1rem 0;
+ background-color: var(--colorbg);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
 
 
-.App-main {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+
+
 

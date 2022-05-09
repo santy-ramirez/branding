@@ -1,23 +1,22 @@
-import { useState } from 'react'
+import React from 'react';
+import TodoApp from './components/TodoApp';
+import Header from './components/Header';
 
-import logo from './logo.svg'
-import './App.css'
-import Search from './compenents/Search'
-import List from './compenents/List'
+import './App.css';
+
 
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div className="App">
-      <div className="App-main">
-      <Search></Search>
-      <List></List>
-        <img src={logo} className="App-logo" alt="logo" />
-      </div>
+    <>
+    <Header></Header>
+    <div className="contenedor">
+     
+       <TodoApp/>
+     
     </div>
-  )
+    </>
+  );
 }
 
-export default App
+export default App;
